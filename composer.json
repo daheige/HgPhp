@@ -3,11 +3,12 @@
     "description": "基于tp3.2+slim2.6+laravel路由机制，构建的tp-mvc框架，用于api,web开发。",
     "type": "library",
     "license": "MIT",
-    "authors": [{
-        "name": "daheige",
-        "email": "zhuwei313@hotmail.com"
-    }],
-    "require": {
-        "php": ">=5.4.0"
-    }
+    "authors": [
+        {
+            "name": "daheige",
+            "email": "zhuwei313@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
 }
