@@ -1,14 +1,13 @@
 {
     "name": "daheige/hg-php",
-    "description": "基于tp3.2+slim2.6+laravel路由机制，构建的tp-mvc框架，用于api,web开发",
+    "description": "hg-php framework based tp3.2 + slim2.6 + laravel routing mechanism to build the tp-mvc framework for api, web development",
     "type": "library",
+    "version": "1.0.0",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "daheige",
-            "email": "zhuwei313@hotmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
+    "authors": [{
+        "name": "daheige",
+        "email": "zhuwei313@hotmail.com"
+    }],
+    "minimum-stability": "dev",
     "require": {}
 }
