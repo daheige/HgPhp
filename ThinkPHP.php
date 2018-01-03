@@ -43,22 +43,22 @@ defined('DS') || define('DS', DIRECTORY_SEPARATOR);
 defined('APP_MODE') || define('APP_MODE', 'common');       // 应用模式 默认为普通模式
 defined('STORAGE_TYPE') || define('STORAGE_TYPE', 'File'); // 存储类型 默认为File
 
-defined('RUNTIME_PATH') || define('RUNTIME_PATH', DOC_PATH . ROOT_PATH . 'runtime/'); // 系统运行时目录
-defined('LIB_PATH') || define('LIB_PATH', realpath(THINK_PATH . 'Library') . '/');    // 系统核心类库目录
-defined('CORE_PATH') || define('CORE_PATH', LIB_PATH . 'Think/');                     // Think类库目录
-defined('BEHAVIOR_PATH') || define('BEHAVIOR_PATH', LIB_PATH . 'Behavior/');          // 行为类库目录
-defined('MODE_PATH') || define('MODE_PATH', THINK_PATH . 'Mode/');                    // 系统应用模式目录
-defined('VENDOR_PATH') || define('VENDOR_PATH', LIB_PATH . 'Vendor/');                // 第三方类库目录
-defined('COMMON_PATH') || define('COMMON_PATH', APP_PATH . 'Common/');                // 应用公共目录
-defined('CONF_PATH') || define('CONF_PATH', COMMON_PATH . 'Conf/');                   // 应用配置目录
-defined('LANG_PATH') || define('LANG_PATH', COMMON_PATH . 'Lang/');                   // 应用语言目录
-defined('HTML_PATH') || define('HTML_PATH', APP_PATH . 'Html/');                      // 应用静态目录
-defined('LOG_PATH') || define('LOG_PATH', RUNTIME_PATH . 'Logs/');                    // 应用日志目录
-defined('TEMP_PATH') || define('TEMP_PATH', RUNTIME_PATH . 'Temp/');                  // 应用缓存目录
-defined('DATA_PATH') || define('DATA_PATH', RUNTIME_PATH . 'Data/');                  // 应用数据目录
-defined('CACHE_PATH') || define('CACHE_PATH', RUNTIME_PATH . 'Cache/');               // 应用模板缓存目录
-defined('CONF_EXT') || define('CONF_EXT', '.php');                                    // 配置文件后缀
-defined('CONF_PARSE') || define('CONF_PARSE', '');                                    // 配置文件解析方法
+defined('RUNTIME_PATH') || define('RUNTIME_PATH', ROOT_PATH . 'data/runtime/');    // 系统运行时目录
+defined('LIB_PATH') || define('LIB_PATH', realpath(THINK_PATH . 'Library') . '/'); // 系统核心类库目录
+defined('CORE_PATH') || define('CORE_PATH', LIB_PATH . 'Think/');                  // Think类库目录
+defined('BEHAVIOR_PATH') || define('BEHAVIOR_PATH', LIB_PATH . 'Behavior/');       // 行为类库目录
+defined('MODE_PATH') || define('MODE_PATH', THINK_PATH . 'Mode/');                 // 系统应用模式目录
+defined('VENDOR_PATH') || define('VENDOR_PATH', LIB_PATH . 'Vendor/');             // 第三方类库目录
+defined('COMMON_PATH') || define('COMMON_PATH', APP_PATH . 'Common/');             // 应用公共目录
+defined('CONF_PATH') || define('CONF_PATH', COMMON_PATH . 'Conf/');                // 应用配置目录
+defined('LANG_PATH') || define('LANG_PATH', COMMON_PATH . 'Lang/');                // 应用语言目录
+defined('HTML_PATH') || define('HTML_PATH', APP_PATH . 'Html/');                   // 应用静态目录
+defined('LOG_PATH') || define('LOG_PATH', RUNTIME_PATH . 'Logs/');                 // 应用日志目录
+defined('TEMP_PATH') || define('TEMP_PATH', RUNTIME_PATH . 'Temp/');               // 应用缓存目录
+defined('DATA_PATH') || define('DATA_PATH', RUNTIME_PATH . 'Data/');               // 应用数据目录
+defined('CACHE_PATH') || define('CACHE_PATH', RUNTIME_PATH . 'Cache/');            // 应用模板缓存目录
+defined('CONF_EXT') || define('CONF_EXT', '.php');                                 // 配置文件后缀
+defined('CONF_PARSE') || define('CONF_PARSE', '');                                 // 配置文件解析方法
 defined('ADDON_PATH') || define('ADDON_PATH', APP_PATH . 'Addon');
 
 // 系统信息
