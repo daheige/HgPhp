@@ -1,5 +1,5 @@
 {
-    "name": "daheige/hg-php",
+    "name": "daheige/hgphp",
     "description": "hg-php framework based tp3.2 + slim2.6 + laravel routing mechanism to build the tp-mvc framework for api, web development",
     "type": "library",
     "version": "1.0.0",
